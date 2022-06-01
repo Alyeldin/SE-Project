@@ -1,0 +1,131 @@
+:root {
+  --green: #6e8a3c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+}
+
+*::selection {
+  background: var(--green);
+  color: #fff;
+}
+
+html {
+  font-size: 0.625rem;
+  overflow-x: hidden;
+}
+
+nav {
+  font-size: 14px;
+  background-color: black;
+}
+
+html::-webkit-scrollbar {
+  width: 1.3rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: #eee;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: var(--green);
+}
+
+section {
+  min-height: 100vh;
+  padding: 0 7%;
+  padding-top: 9rem;
+}
+
+.btn {
+  padding: 0.7rem 2rem;
+  font-size: 1.7rem;
+  background: #666;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 1rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+  background: #444;
+}
+
+.product {
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: all 0.3s cubic-bezier(0.38, 1.15, 0.7, 1.12);
+  font-weight: normal;
+  font-family: cursive;
+}
+
+.product .box-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.product .box-container .box {
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  margin: 2rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background: #fff;
+  width: 30rem;
+  text-align: center;
+}
+
+.product .box-container .box img {
+  height: 20rem;
+  width: 20rem;
+  object-fit: cover;
+}
+
+.product .box-container .box h3 {
+  font-size: 2rem;
+  color: var(--green);
+}
+
+.product .box-container .box .stars i {
+  font-size: 2rem;
+  color: gold;
+  padding: 1rem 0.1rem;
+}
+
+.product .box-container .box .price {
+  font-size: 2rem;
+  color: #666;
+}
+
+.product .box-container .box .price span {
+  font-size: 1.5rem;
+  color: #aaa;
+  padding-right: 0.5rem;
+  text-decoration: line-through;
+}
+
+.product .box-container .box .icons {
+  padding: 1rem 0;
+}
+
+.product .box-container .box .icons a {
+  font-size: 1.5rem;
+  color: #666;
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  margin: 0.5rem;
+}
+
+.product .box-container .box .icons a:hover {
+  background: #eee;
+}
