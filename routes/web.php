@@ -23,12 +23,13 @@ Route::get('/login', function () {
     return view('login');
 });
 
-Route::get('/calender2', function () {
-    return view('calender2');
+Route::get('/services', function () {
+    return view('services');
 }); 
 Route::get('/product', function () {
     return view('product');
 });
+
 
 
 Route::get('/signup',[SignupController::class, 'signup']); 

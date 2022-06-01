@@ -156,7 +156,7 @@ nav {
   left: 0;
   width: 100%;
   z-index: 1;
-  background-color: rgba(95, 103, 113, 0.4);
+  background-color:rgb(0, 0, 0);
 }
 nav .fas {
   display: none;
@@ -200,10 +200,10 @@ nav .fas {
   }
   nav ul li.activ,
   nav ul li:hover {
-    color: var(--main-text-color) !important;
+    color: black !important;
   }
   nav ul li:hover {
-    background-color: #ccc;
+    background-color: #black;
   }
   nav ul li:last-child {
     padding: 0;
@@ -223,7 +223,7 @@ nav .logo a {
   color: white;
 }
 nav .logo span {
-  color: var(--main-text-color);
+  color:;
 }
 nav ul li {
   display: inline-block;
@@ -236,17 +236,17 @@ nav ul li {
 }
 nav ul li.activ,
 nav ul li:hover {
-  color: var(--main-text-color);
+  color: #000000;
 }
 nav ul li a {
   color: white;
   text-decoration: none;
-  background-color: var(--main-text-color);
+  background-color: #000000;
   padding: 12px 17px;
   transition: 0.3s;
 }
 nav ul li a:hover {
-  color: #f9735b;
+  color: #FFF8DC;
 }
 /* End Nav */
 
@@ -272,12 +272,12 @@ nav ul li a:hover {
  <!-- Start Nav -->
  <nav>
       <div class="logo">
-        <a href="#">Scooter<span>Garage</span></a>
+        <a href="welcome">Scooter<span>Garage</span></a>
       </div>
       <i class="fas fa-ellipsis-v" id="menuButton"></i>
       <ul id="menu">
-        <li ><a href="#">Home</li>
-        <li><a href="calender2">Services</a></li>
+        <li ><a href="welcome">Home</li>
+        <li><a href="services">Services</a></li>
         <li><a href="contactus">Contact</li>
         <li><a href="login">login </a></li>
       </ul>

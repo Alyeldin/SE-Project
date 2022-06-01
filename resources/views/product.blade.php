@@ -70,7 +70,7 @@ nav {
   left: 0;
   width: 100%;
   z-index: 1;
-  background-color: rgba(95, 103, 113, 0.4);
+  background-color:rgb(0, 0, 0);
 }
 nav .fas {
   display: none;
@@ -94,34 +94,10 @@ nav .fas {
     top: 95px;
     transition: 0.5s;
   }
-  nav ul {
-    position: absolute;
-    top: -400px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: 70%;
-  }
-  nav ul li {
-    margin-bottom: 30px;
-    color: black !important;
-    background-color: white;
-    margin: 0;
-    padding: 15px 0;
-    border-bottom: 1px solid rgba(204, 204, 204, 0.3);
-  }
-  nav ul li.activ,
-  nav ul li:hover {
-    color: var(--main-text-color) !important;
-  }
-  nav ul li:hover {
-    background-color: #ccc;
-  }
-  nav ul li:last-child {
-    padding: 0;
-  }
+ 
+ 
+  
+
   nav ul li a {
     display: block;
   }
@@ -137,7 +113,7 @@ nav .logo a {
   color: white;
 }
 nav .logo span {
-  color: var(--main-text-color);
+  color:#FF6347;
 }
 nav ul li {
   display: inline-block;
@@ -148,19 +124,16 @@ nav ul li {
   transition: 0.3s;
   cursor: pointer;
 }
-nav ul li.activ,
-nav ul li:hover {
-  color: var(--main-text-color);
-}
+
 nav ul li a {
   color: white;
   text-decoration: none;
-  background-color: var(--main-text-color);
-  padding: 12px 17px;
-  transition: 0.3s;
+  background-color: #000000;
+  padding: 17px 17px;
+  transition: 0.5s;
 }
 nav ul li a:hover {
-  color: #f9735b;
+  color: #FF6347;
 }
 /* End Nav */
 
@@ -377,11 +350,11 @@ section {
    <!-- Start Nav -->
    <nav>
       <div class="logo">
-        <a href="#">Scooter<span>Garage</span></a>
+        <a href="welcome">Scooter<span>Garage</span></a>
       </div>
       <i class="fas fa-ellipsis-v" id="menuButton"></i>
       <ul id="menu">
-        <li >Home</li>
+        <li ><a href="welcome">Home</li>
         <li><a href="calender2">Services</a></li>
         <li><a href="contactus">Contact</li>
         <li><a href="login">login </a></li>
@@ -397,115 +370,49 @@ section {
         <div class="box">
           <img src="images/img1.jpg" alt="" />
           <h3>organic tomato</h3>
-          <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half"></i>
-          </div>
-          <div class="price"><span>$15.10</span> $12.30</div>
-          <div class="icons">
-            <a href="#" class="fas fa-shopping-cart"></a>
-            <a href="#" class="fas fa-eye"></a>
-            <a href="#" class="fas fa-heart"></a>
-            <a href="#" class="fas fa-share"></a>
-          </div>
+         
+          <div class="price"> $12.30</div>
+       
         </div>
 
         <div class="box">
           <img src="images/img2.jpg" alt="" />
           <h3>organic banana</h3>
-          <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half"></i>
-          </div>
-          <div class="price"><span>$15.10</span> $12.30</div>
-          <div class="icons">
-            <a href="#" class="fas fa-shopping-cart"></a>
-            <a href="#" class="fas fa-eye"></a>
-            <a href="#" class="fas fa-heart"></a>
-            <a href="#" class="fas fa-share"></a>
-          </div>
+        
+          <div class="price"> $12.30</div>
+        
         </div>
 
         <div class="box">
           <img src="images/img3.jpg" alt="" />
           <h3>organic grapes</h3>
-          <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half"></i>
-          </div>
-          <div class="price"><span>$15.10</span> $12.30</div>
-          <div class="icons">
-            <a href="#" class="fas fa-shopping-cart"></a>
-            <a href="#" class="fas fa-eye"></a>
-            <a href="#" class="fas fa-heart"></a>
-            <a href="#" class="fas fa-share"></a>
-          </div>
+      
+          <div class="price"> $12.30</div>
+        
         </div>
 
         <div class="box">
           <img src="images/img4.jpg" alt="" />
           <h3>organic lemon</h3>
-          <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half"></i>
-          </div>
-          <div class="price"><span>$15.10</span> $12.30</div>
-          <div class="icons">
-            <a href="#" class="fas fa-shopping-cart"></a>
-            <a href="#" class="fas fa-eye"></a>
-            <a href="#" class="fas fa-heart"></a>
-            <a href="#" class="fas fa-share"></a>
-          </div>
+         
+          <div class="price"> $12.30</div>
+        
         </div>
 
         <div class="box">
           <img src="images/img5.jpg" alt="" />
           <h3>organic broccoli</h3>
-          <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half"></i>
-          </div>
-          <div class="price"><span>$15.10</span> $12.30</div>
-          <div class="icons">
-            <a href="#" class="fas fa-shopping-cart"></a>
-            <a href="#" class="fas fa-eye"></a>
-            <a href="#" class="fas fa-heart"></a>
-            <a href="#" class="fas fa-share"></a>
-          </div>
+         
+          <div class="price">$12.30</div>
+        
         </div>
 
         <div class="box">
           <img src="images/img6.jpg" alt="" />
           <h3>organic potato</h3>
-          <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half"></i>
-          </div>
-          <div class="price"><span>$15.10</span> $12.30</div>
-          <div class="icons">
-            <a href="#" class="fas fa-shopping-cart"></a>
-            <a href="#" class="fas fa-eye"></a>
-            <a href="#" class="fas fa-heart"></a>
-            <a href="#" class="fas fa-share"></a>
-          </div>
+        
+          <div class="price"><span> $12.30</div>
+       
         </div>
       </div>
     </section>

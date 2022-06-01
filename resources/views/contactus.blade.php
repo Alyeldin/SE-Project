@@ -135,7 +135,6 @@
   font-size: 14px;
 }
 /* End Components */
-
 /* Start Nav */
 nav {
   display: flex;
@@ -147,7 +146,7 @@ nav {
   left: 0;
   width: 100%;
   z-index: 1;
-  background-color: rgba(95, 103, 113, 0.4);
+  background-color:rgb(0, 0, 0);
 }
 nav .fas {
   display: none;
@@ -171,34 +170,10 @@ nav .fas {
     top: 95px;
     transition: 0.5s;
   }
-  nav ul {
-    position: absolute;
-    top: -400px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: 70%;
-  }
-  nav ul li {
-    margin-bottom: 30px;
-    color: black !important;
-    background-color: white;
-    margin: 0;
-    padding: 15px 0;
-    border-bottom: 1px solid rgba(204, 204, 204, 0.3);
-  }
-  nav ul li.activ,
-  nav ul li:hover {
-    color: var(--main-text-color) !important;
-  }
-  nav ul li:hover {
-    background-color: #ccc;
-  }
-  nav ul li:last-child {
-    padding: 0;
-  }
+ 
+ 
+  
+
   nav ul li a {
     display: block;
   }
@@ -214,7 +189,7 @@ nav .logo a {
   color: white;
 }
 nav .logo span {
-  color: var(--main-text-color);
+  color:#FF6347;
 }
 nav ul li {
   display: inline-block;
@@ -225,21 +200,19 @@ nav ul li {
   transition: 0.3s;
   cursor: pointer;
 }
-nav ul li.activ,
-nav ul li:hover {
-  color: var(--main-text-color);
-}
+
 nav ul li a {
   color: white;
   text-decoration: none;
-  background-color: var(--main-text-color);
-  padding: 12px 17px;
-  transition: 0.3s;
+  background-color: #000000;
+  padding: 17px 17px;
+  transition: 0.5s;
 }
 nav ul li a:hover {
-  color: #f9735b;
+  color: #FF6347;
 }
 /* End Nav */
+
 
 /* Start Header */
 .header {
@@ -352,15 +325,15 @@ nav ul li a:hover {
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     </head>
    <!-- Start Contact -->
-   <!-- Start Nav -->
-   <nav>
+  <!-- Start Nav -->
+  <nav>
       <div class="logo">
-        <a href="#">Scooter<span>Garage</span></a>
+        <a href="welcome">Scooter<span>Garage</span></a>
       </div>
       <i class="fas fa-ellipsis-v" id="menuButton"></i>
       <ul id="menu">
-        <li ><a href="#">Home</li>
-        <li><a href="calender2">Services</a></li>
+        <li ><a href="welcome">Home</li>
+        <li><a href="services">Services</a></li>
         <li><a href="contactus">Contact</li>
         <li><a href="login">login </a></li>
       </ul>
