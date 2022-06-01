@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit863827990ca0a681437f4f9f5594e4bd
+class ComposerStaticInitdd6425b07811b39581eb1a4192677d8f
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
@@ -178,8 +178,8 @@ class ComposerStaticInit863827990ca0a681437f4f9f5594e4bd
         'phpDocumentor\\Reflection\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
-            1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
-            2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
+            1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
+            2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
         ),
         'Whoops\\' => 
         array (
@@ -335,8 +335,8 @@ class ComposerStaticInit863827990ca0a681437f4f9f5594e4bd
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-factory/src',
-            1 => __DIR__ . '/..' . '/psr/http-message/src',
+            0 => __DIR__ . '/..' . '/psr/http-message/src',
+            1 => __DIR__ . '/..' . '/psr/http-factory/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (
@@ -812,6 +812,8 @@ class ComposerStaticInit863827990ca0a681437f4f9f5594e4bd
         'Egulias\\EmailValidator\\Result\\SpoofEmail' => __DIR__ . '/..' . '/egulias/email-validator/src/Result/SpoofEmail.php',
         'Egulias\\EmailValidator\\Result\\ValidEmail' => __DIR__ . '/..' . '/egulias/email-validator/src/Result/ValidEmail.php',
         'Egulias\\EmailValidator\\Validation\\DNSCheckValidation' => __DIR__ . '/..' . '/egulias/email-validator/src/Validation/DNSCheckValidation.php',
+        'Egulias\\EmailValidator\\Validation\\DNSGetRecordWrapper' => __DIR__ . '/..' . '/egulias/email-validator/src/Validation/DNSGetRecordWrapper.php',
+        'Egulias\\EmailValidator\\Validation\\DNSRecords' => __DIR__ . '/..' . '/egulias/email-validator/src/Validation/DNSRecords.php',
         'Egulias\\EmailValidator\\Validation\\EmailValidation' => __DIR__ . '/..' . '/egulias/email-validator/src/Validation/EmailValidation.php',
         'Egulias\\EmailValidator\\Validation\\Exception\\EmptyValidationList' => __DIR__ . '/..' . '/egulias/email-validator/src/Validation/Exception/EmptyValidationList.php',
         'Egulias\\EmailValidator\\Validation\\Extra\\SpoofCheckValidation' => __DIR__ . '/..' . '/egulias/email-validator/src/Validation/Extra/SpoofCheckValidation.php',
@@ -5687,10 +5689,10 @@ class ComposerStaticInit863827990ca0a681437f4f9f5594e4bd
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit863827990ca0a681437f4f9f5594e4bd::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit863827990ca0a681437f4f9f5594e4bd::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit863827990ca0a681437f4f9f5594e4bd::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit863827990ca0a681437f4f9f5594e4bd::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitdd6425b07811b39581eb1a4192677d8f::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitdd6425b07811b39581eb1a4192677d8f::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInitdd6425b07811b39581eb1a4192677d8f::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInitdd6425b07811b39581eb1a4192677d8f::$classMap;
 
         }, null, ClassLoader::class);
     }
