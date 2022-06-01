@@ -2093,7 +2093,7 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"carService","qid":"1","text":"Car S
       </div>
       <i class="fas fa-ellipsis-v" id="menuButton"></i>
       <ul id="menu">
-        <li ><a href="#">Home</li>
+        <li ><a href="/">Home</li>
         <li><a href="services">Services</a></li>
         <li><a href="contactus">Contact</li>
         <li><a href="login">login </a></li>

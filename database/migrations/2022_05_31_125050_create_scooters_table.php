@@ -14,9 +14,9 @@ return new class extends Migration
     public function up()
     {
         Schema::create('scooters', function (Blueprint $table) {
-            $table->id();
+            $table->increments('id');
             $table->string('description');
-            $table->string('price');
+            $table->float('price', 8, 2);
             $table->boolean('available');
             $table->string('picture');
             $table->timestamps();
