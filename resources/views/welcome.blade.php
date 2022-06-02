@@ -221,7 +221,7 @@
       <div class="col">
         <div  class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg" style="background-image: url(../images/services.jpg);">
           <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Scooters</h2>
+            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Scooters&motors</h2>
             <ul class="d-flex list-unstyled mt-auto">
             
               
@@ -231,11 +231,11 @@
         </div>
       </div>
       </a>
-      <a href="signup"  style="text-decoration: none";>
+      <a href="spareparts"  style="text-decoration: none";>
       <div class="col">
         <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg" style="background-image: url(../images/services.jpg);">
           <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Services</h2>
+            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">spare-parts</h2>
             <ul class="d-flex list-unstyled mt-auto">
               <li class="me-auto">
               
@@ -246,18 +246,18 @@
       </div>
 
     </A>
-    <a href="signup"  style="text-decoration: none";>
+    <a href="oilchange"  style="text-decoration: none";>
       <div class="col">
         <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg" style="background-image: url(../images/oil.jpg);">
           <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-            <h4 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Oil </h4>
+            <h4 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Oil-change </h4>
             <ul class="d-flex list-unstyled mt-auto">
       
           </div>
         </div>
       </div>
       </A>
-      <a href="signup"  style="text-decoration: none";>
+      <a href="acc"  style="text-decoration: none";>
       <div class="col">
         <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-3.jpg');">
           <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
