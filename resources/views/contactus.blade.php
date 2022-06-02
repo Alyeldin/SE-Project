@@ -460,8 +460,13 @@ nav ul li a:hover {
 
 
 </style>
-   
-      
+    <link rel="stylesheet" href="css/ContactUs.css">
+    <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     </head>
         
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
@@ -498,7 +503,7 @@ nav ul li a:hover {
         </a>
 
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-          <li><a href="/" class="nav-link px-2 text-secondary">Home</a></li>
+          <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
           <li><a href="services" class="nav-link px-2 text-white">Services</a></li>
           <li><a href="contactus" class="nav-link px-2 text-white">Contact us</a></li>
       
