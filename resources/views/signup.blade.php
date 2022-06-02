@@ -94,7 +94,7 @@
         <input type="password" name="password" id="password" class="form-control"></br>
         <label>scooter</label></br>
         <input type="text" name="scooter" id="scooter" class="form-control"></br>
-        <input type="submit" value="Signup" class="btn btn-success"></br>
+        <input type="submit" value="Signup" class="btn btn-success" ></br></a>
     </form>
     
     
