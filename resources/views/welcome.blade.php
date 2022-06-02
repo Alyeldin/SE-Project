@@ -213,13 +213,13 @@
       </div>
     </div>
   </header>
-  
+  <a href="product"  style="text-decoration: none";>
   <div class="container px-4 py-5" id="custom-cards">
-    
+  
 
     <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
       <div class="col">
-        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg" style="background-image: url(../images/services.jpg);">
+        <div  class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg" style="background-image: url(../images/services.jpg);">
           <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
             <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Scooters</h2>
             <ul class="d-flex list-unstyled mt-auto">
@@ -230,7 +230,8 @@
           </div>
         </div>
       </div>
-
+      </a>
+      <a href="signup"  style="text-decoration: none";>
       <div class="col">
         <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg" style="background-image: url(../images/services.jpg);">
           <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
@@ -244,23 +245,25 @@
         </div>
       </div>
 
-      
+    </A>
+    <a href="signup"  style="text-decoration: none";>
       <div class="col">
         <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg" style="background-image: url(../images/oil.jpg);">
           <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Oil Changes</h2>
+            <h4 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Oil </h4>
             <ul class="d-flex list-unstyled mt-auto">
       
           </div>
         </div>
       </div>
-
+      </A>
+      <a href="signup"  style="text-decoration: none";>
       <div class="col">
         <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-3.jpg');">
           <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
             <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h2>
             <ul class="d-flex list-unstyled mt-auto">
-         
+            </A>
           </div>
         </div>
       </div>
