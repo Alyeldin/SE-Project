@@ -1968,3 +1968,75 @@
 #45 C:\\xamppp\\htdocs\\SE-project\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #46 {main}
 "} 
+[2022-06-02 11:53:52] local.ERROR: Class "Database\Seeders\Eloquent" not found {"exception":"[object] (Error(code: 0): Class \"Database\\Seeders\\Eloquent\" not found at E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\database\\seeders\\DatabaseSeeder.php:17)
+[stacktrace]
+#0 E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Database\\Seeders\\DatabaseSeeder->run()
+#1 E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#2 E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#3 E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#4 E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#5 E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(175): Illuminate\\Container\\Container->call(Array, Array)
+#6 E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(184): Illuminate\\Database\\Seeder->Illuminate\\Database\\{closure}()
+#7 E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(79): Illuminate\\Database\\Seeder->__invoke()
+#8 E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Concerns\\GuardsAttributes.php(155): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#9 E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(80): Illuminate\\Database\\Eloquent\\Model::unguarded(Object(Closure))
+#10 E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#11 E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#12 E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#13 E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#14 E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#15 E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(136): Illuminate\\Container\\Container->call(Array)
+#16 E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\vendor\\symfony\\console\\Command\\Command.php(308): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#17 E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(121): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#18 E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\vendor\\symfony\\console\\Application.php(998): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#19 E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\vendor\\symfony\\console\\Application.php(299): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Seeds\\SeedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#20 E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\vendor\\symfony\\console\\Application.php(171): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#21 E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(102): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#22 E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#23 E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#24 {main}
+"} 
+[2022-06-02 11:54:26] local.ERROR: Undefined constant "Database\Seeders\this" {"exception":"[object] (Error(code: 0): Undefined constant \"Database\\Seeders\\this\" at E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\database\\seeders\\DatabaseSeeder.php:18)
+[stacktrace]
+#0 E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Database\\Seeders\\DatabaseSeeder->run()
+#1 E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#2 E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#3 E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#4 E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#5 E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(175): Illuminate\\Container\\Container->call(Array, Array)
+#6 E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(184): Illuminate\\Database\\Seeder->Illuminate\\Database\\{closure}()
+#7 E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(79): Illuminate\\Database\\Seeder->__invoke()
+#8 E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Concerns\\GuardsAttributes.php(155): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#9 E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(80): Illuminate\\Database\\Eloquent\\Model::unguarded(Object(Closure))
+#10 E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#11 E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#12 E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#13 E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#14 E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#15 E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(136): Illuminate\\Container\\Container->call(Array)
+#16 E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\vendor\\symfony\\console\\Command\\Command.php(308): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#17 E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(121): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#18 E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\vendor\\symfony\\console\\Application.php(998): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#19 E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\vendor\\symfony\\console\\Application.php(299): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Seeds\\SeedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#20 E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\vendor\\symfony\\console\\Application.php(171): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#21 E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(102): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#22 E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#23 E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#24 {main}
+"} 
+[2022-06-02 11:58:15] local.ERROR: There are no commands defined in the "db:" namespace.
+
+Did you mean this?
+    db {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"db:\" namespace.
+
+Did you mean this?
+    db at E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\vendor\\symfony\\console\\Application.php:622)
+[stacktrace]
+#0 E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\vendor\\symfony\\console\\Application.php(673): Symfony\\Component\\Console\\Application->findNamespace('db:')
+#1 E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\vendor\\symfony\\console\\Application.php(259): Symfony\\Component\\Console\\Application->find('db::seed')
+#2 E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\vendor\\symfony\\console\\Application.php(171): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(102): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 E:\\Programs Downloaded\\Xampp\\htdocs\\SE-project\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
