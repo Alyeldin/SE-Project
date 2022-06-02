@@ -237,9 +237,10 @@ input[type=submit]:hover {
 
  
 
+       
         <div class="text-end">
-          <button type="button" class="btn btn-outline-light me-2">Login</button>
-          <button type="button" class="btn btn-warning">Sign-up</button>
+        <a href="login" class="btn btn-outline-light me-2" role="button" aria-pressed="true">Login </a>
+        <a href="signup" class="btn btn-warning" role="button" aria-pressed="true">Sign Up </a>
         </div>
       </div>
     </div>
