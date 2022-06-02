@@ -2091,7 +2091,7 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"carService","qid":"1","text":"Car S
       <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
         <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
         <div class="logo">
-        <a href="#">Scooter<span>Garage</span></a>
+        <a href="/">Scooter<span>Garage</span></a>
       </div>
         </a>
 
