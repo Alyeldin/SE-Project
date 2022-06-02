@@ -29,6 +29,15 @@ Route::get('/services', function () {
 Route::get('/product', function () {
     return view('product');
 });
+Route::get('/spareparts', function () {
+    return view('spareparts');
+});
+Route::get('/oilchange', function () {
+    return view('oilchange');
+});
+Route::get('/acc', function () {
+    return view('acc');
+});
 
 
 
