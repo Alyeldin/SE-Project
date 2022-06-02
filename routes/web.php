@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SignupController;
+use App\Http\Controllers\UserController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -38,6 +39,13 @@ Route::get('/oilchange', function () {
 Route::get('/acc', function () {
     return view('acc');
 });
+
+Route::resource("/Users", UserController::class);
+ Route::resource('/create', UserController::class);
+// Route::resource('/edit', UserController::class);
+// Route::resource('/index', UserController::class);
+// Route::resource('/layout', UserController::class);
+// Route::resource('/show', UserController::class);
 
 
 

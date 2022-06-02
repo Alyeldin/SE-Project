@@ -82,34 +82,23 @@
   <body class="text-center">
     
 <main class="form-signin w-100 m-auto">
-  <form>
-   
-    <h1 class="h3 mb-3 fw-normal">Please Sign up</h1>
-
-    <div class="form-floating">
-      <input type="text" class="form-control" id="floatingName" placeholder="name">
-      <label for="floatingInput">name</label>
-    </div>
-    <div class="form-floating">
-      <input type="number" class="form-control" id="floatingPhone" placeholder="Phone">
-      <label for="floatingPassword">phone</label>
-  
-    <div class="form-floating">
-      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-      <label for="floatingInput">Email address</label>
-    </div>
-    <div class="form-floating">
-      <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-      <label for="floatingPassword">Password</label>
-    </div>
-    <div class="form-floating">
-      <input type="text" class="form-control" id="floatingSD" placeholder="name">
-      <label for="floatingInput">scooter details</label>
-    </div>
-
+<form action="{{ url('/Users/') }}" method="post">
+        {!! csrf_field() !!}
+        <label>Name</label></br>
+        <input type="text" name="name" id="name" class="form-control"></br>
+        <label>phone</label></br>
+        <input type="text" name="phone" id="phone" class="form-control"></br>
+        <label>email</label></br>
+        <input type="email" name="email" id="email" class="form-control"></br>
+        <label>password</label></br>
+        <input type="password" name="password" id="password" class="form-control"></br>
+        <label>scooter</label></br>
+        <input type="text" name="scooter" id="scooter" class="form-control"></br>
+        <input type="submit" value="Signup" class="btn btn-success"></br>
+    </form>
     
     
-    <a href="signup" class="btn btn-warning" role="button" aria-pressed="true">Sign Up </a>
+    
   </form>
 </main>
 
