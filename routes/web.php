@@ -39,6 +39,9 @@ Route::get('/oilchange', function () {
 Route::get('/acc', function () {
     return view('acc');
 });
+Route::get('/servicess', function () {
+    return view('servicess');
+});
 
 Route::resource("/Users", UserController::class);
  Route::resource('/create', UserController::class);
