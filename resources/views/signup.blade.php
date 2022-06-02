@@ -355,11 +355,11 @@ h1{
 <!-- Start Nav -->
 <nav>
       <div class="logo">
-        <a href="welcome">Scooter<span>Garage</span></a>
+        <a href="#">Scooter<span>Garage</span></a>
       </div>
       <i class="fas fa-ellipsis-v" id="menuButton"></i>
       <ul id="menu">
-        <li ><a href="welcome">Home</li>
+        <li ><a href="#">Home</li>
         <li><a href="services">Services</a></li>
         <li><a href="contactus">Contact</li>
         <li><a href="login">login </a></li>
