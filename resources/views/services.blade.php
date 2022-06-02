@@ -9,6 +9,15 @@
 <meta name="slack-app-id" content="AHNMASS8M">
 <link rel="shortcut icon" href="https://cdn.jotfor.ms/assets/img/favicons/favicon-2021.svg">
 <link rel="canonical" href="https://form.jotform.com/221506243397556" />
+<link href="https://getbootstrap.com/docs/5.2/examples/features/features.css" rel="stylesheet">
+    
+
+    
+
+<link href="https://getbootstrap.com/docs/5.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<link href="https://getbootstrap.com/docs/5.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=1" />
 <meta name="HandheldFriendly" content="true" />
 <title>Scooter Service Booking Form</title>
@@ -17,6 +26,7 @@
 <link type="text/css" rel="stylesheet" href="https://cdn02.jotfor.ms/css/styles/payment/payment_styles.css?3.3.33697" />
 <link type="text/css" rel="stylesheet" href="https://cdn03.jotfor.ms/css/styles/payment/payment_feature.css?3.3.33697" />
 <style type="text/css" id="form-designer-style">
+	
     /* Injected CSS Code */
 *,
 *:after,
@@ -53,7 +63,7 @@
   -ms-transition-timing-function: ease;
   -o-transition-timing-function: ease;
   transition-timing-function: ease;
-  background-color: #4f5b77;
+  background-color: #FFFFFF;
 }
 .calendar.popup {
   display: none;
@@ -108,7 +118,7 @@ li.form-line {
 .form-checkbox-other-input,
 .form-captcha input,
 .form-spinner input {
-  background-color: #1f2536;
+  background-color: #FFFFFF;
 }
 .form-label {
   font-family: "Inter", sans-serif;
@@ -546,8 +556,8 @@ li[data-type="control_datetime"] .extended .allowTime-container + .form-sub-labe
   border-color: #1a1f2f;
 }
 .supernova {
-  background-color: #2c3345;
-  background-color: #11111b;
+  background-color: #FFFFFF;
+  background-color: #FFFFFF;
 }
 .supernova body {
   background-color: transparent;
@@ -656,88 +666,78 @@ li[data-type="control_datetime"] .extended .allowTime-container + .form-sub-labe
   padding-left: 18px;
   padding-right: 12px;
 }
-/* Start Nav */
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 22px 6%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1;
-  background-color:rgb(0, 0, 0);
-}
-nav .fas {
-  display: none;
-}
-@media (max-width: 1100px) {
-  nav {
-    background-color: white;
-  }
-  nav .logo {
-    color: black !important;
-  }
-  nav .logo a {
-    color: black !important;
-  }
-  nav .fas {
-    display: block;
-    font-size: 20px;
-    cursor: pointer;
-  }
-  nav .fas:hover + ul {
-    top: 95px;
-    transition: 0.5s;
-  }
- 
- 
-  
 
-  nav ul li a {
-    display: block;
-  }
-}
-nav .logo {
+
+.logo {
   font-size: 35px;
   font-weight: 800;
   color: white;
   text-transform: uppercase;
 }
-nav .logo a {
+ .logo a {
   text-decoration: none;
   color: white;
 }
-nav .logo span {
-  color:#FF6347;
-}
-nav ul li {
-  display: inline-block;
-  margin-left: 35px;
-  color: white;
-  text-transform: uppercase;
-  font-weight: 500;
-  transition: 0.3s;
-  cursor: pointer;
+.logo span {
+  color:yellow;
 }
 
-nav ul li a {
-  color: white;
-  text-decoration: none;
-  background-color: #000000;
-  padding: 17px 17px;
-  transition: 0.5s;
-}
-nav ul li a:hover {
-  color: #FF6347;
-}
-/* End Nav */
+    </style>
+    <!-- css for header-->
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
 
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
 
-/*__INSPECT_SEPERATOR__*/
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
 
-    /* Injected CSS Code */
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+    </style>
+
 </style>
 
 <script src="https://cdn01.jotfor.ms/static/prototype.forms.js" type="text/javascript"></script>
@@ -2086,20 +2086,31 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"carService","qid":"1","text":"Car S
 </script>
 </head>
 <body>
-    <!-- Start Nav -->
-    <nav>
-      <div class="logo">
+<header class="p-3 bg-dark text-white">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+        <div class="logo">
         <a href="#">Scooter<span>Garage</span></a>
       </div>
-      <i class="fas fa-ellipsis-v" id="menuButton"></i>
-      <ul id="menu">
-        <li ><a href="#">Home</li>
-        <li><a href="services">Services</a></li>
-        <li><a href="contactus">Contact</li>
-        <li><a href="login">login </a></li>
-      </ul>
-    </nav>
-    <!-- End Nav -->
+        </a>
+
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="/" class="nav-link px-2 text-white">Home</a></li>
+          <li><a href="services" class="nav-link px-2 text-secondary">Services</a></li>
+          <li><a href="contactus" class="nav-link px-2 text-white">Contact us</a></li>
+      
+        </ul>
+
+ 
+
+        <div class="text-end">
+        <a href="login" class="btn btn-outline-light me-2" role="button" aria-pressed="true">Login </a>
+        <a href="signup" class="btn btn-warning" role="button" aria-pressed="true">Sign Up </a>
+
+        </div>
+      </div>
+    </div>
 <form class="jotform-form" action="https://submit.jotform.com/submit/221506243397556/" method="post" name="form_221506243397556" id="221506243397556" accept-charset="utf-8" autocomplete="on">
   <input type="hidden" name="formID" value="221506243397556" />
   <input type="hidden" id="JWTContainer" value="" />
