@@ -192,12 +192,12 @@
       <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
         <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
         <div class="logo">
-        <a href="#">Scooter<span>Garage</span></a>
+        <a href="/">Scooter<span>Garage</span></a>
       </div>
         </a>
 
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-          <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
+          <li><a href="/" class="nav-link px-2 text-secondary">Home</a></li>
           <li><a href="services" class="nav-link px-2 text-white">Services</a></li>
           <li><a href="contactus" class="nav-link px-2 text-white">Contact us</a></li>
       
@@ -221,7 +221,7 @@
       <div class="col">
         <div  class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg" style="background-image: url(../images/red.jpg);">
           <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Scooters&Motors</h2>
+            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Scooters</h2>
             <ul class="d-flex list-unstyled mt-auto">
             
               
@@ -257,17 +257,7 @@
         </div>
       </div>
       </A>
-      <a href="acc"  style="text-decoration: none";>
-      <div class="col">
-        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg" style="background-image: url(../images/helmet.png);">
-          <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" font-size=15px  >Accessor-ies</h2>
-            <ul class="d-flex list-unstyled mt-auto">
-            
-          </div>
-        </div>
-      </div>
-    </A>
+      
     </div>
   </div>
 
