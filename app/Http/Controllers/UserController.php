@@ -37,7 +37,7 @@ class UserController extends Controller
     {
         $input = $request->all();
         UserModel::create($input);
-        return redirect('Users')->with('flash_message', 'user Addedd!'); 
+        return redirect('/')->with('flash_message', 'user Addedd!'); 
     }
 
     /**
