@@ -100,8 +100,10 @@
         <input type="checkbox" value="remember-me"> Remember me
       </label>
     </div>
-    <a href="/" class="btn btn-warning" role="button" aria-pressed="true">Sign in </a>
+    <a href="/" class="btn btn-warning" role="button" aria-pressed="true">Log in </a>
     <a href="signup" class="btn btn-warning" role="button" aria-pressed="true">Sign Up </a>
+    <a href="admin" class="btn btn-warning" role="button" aria-pressed="true">Log in as admin </a>
+
   </form>
 </main>
 

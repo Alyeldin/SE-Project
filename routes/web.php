@@ -42,6 +42,9 @@ Route::get('/acc', function () {
 Route::get('/servicess', function () {
     return view('servicess');
 });
+Route::get('/admin', function () {
+    return view('admin');
+});
 
 Route::resource("/Users", UserController::class);
  Route::resource('/create', UserController::class);
