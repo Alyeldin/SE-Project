@@ -197,8 +197,13 @@
         </a>
 
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+<<<<<<< HEAD
           <li><a href="/" class="nav-link px-2 text-secondary">Home</a></li>
           <li><a href="services" class="nav-link px-2 text-white">Services</a></li>
+=======
+          <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
+          <li><a href="servicess" class="nav-link px-2 text-white">Services</a></li>
+>>>>>>> bbe503c5ac2e5d487117cf82c71b9df163f9af1b
           <li><a href="contactus" class="nav-link px-2 text-white">Contact us</a></li>
       
         </ul>
