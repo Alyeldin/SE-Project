@@ -2,10 +2,10 @@
 @section('content')
  
 <div class="card">
-  <div class="card-header">Contactus Page</div>
+  <div class="card-header">edit Page</div>
   <div class="card-body">
       
-      <form action="{{ url('Users /' .$users->id) }}" method="post">
+      <form action="{{ url('Users/' .$users->id) }}" method="post">
         {!! csrf_field() !!}
         @method("PATCH")
         <input type="hidden" name="id" id="id" value="{{$users->id}}" id="id" />
