@@ -82,7 +82,7 @@
   <body class="text-center">
     
 <main class="form-signin w-100 m-auto">
-<form action="{{ url('/Users/') }}" method="post">
+<form action="{{ url('Users') }}" method="post">
         {!! csrf_field() !!}
         <label>Name</label></br>
         <input type="text" name="name" id="name" class="form-control"></br>
@@ -96,6 +96,7 @@
         <input type="text" name="scooter" id="scooter" class="form-control"></br>
         <input type="submit" value="Signup" class="btn btn-success" ></br></a>
     </form>
+    
     
     
     
