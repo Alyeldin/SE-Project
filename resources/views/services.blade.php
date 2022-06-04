@@ -63,7 +63,7 @@
   -ms-transition-timing-function: ease;
   -o-transition-timing-function: ease;
   transition-timing-function: ease;
-  background-color: #FFFFFF;
+  background-color: #808080;
 }
 .calendar.popup {
   display: none;
@@ -118,7 +118,7 @@ li.form-line {
 .form-checkbox-other-input,
 .form-captcha input,
 .form-spinner input {
-  background-color: #FFFFFF;
+  background-color: #808080;
 }
 .form-label {
   font-family: "Inter", sans-serif;
@@ -137,7 +137,7 @@ li.form-line {
 .form-checkbox-item span,
 .form-radio-item label,
 .form-radio-item span {
-  color: #ffffff;
+  color: #808080;
 }
 .form-radio-item,
 .form-checkbox-item {
@@ -405,7 +405,7 @@ div.form-header-group {
 }
 .form-label,
 .appointmentCalendarContainer * {
-  color: #ffffff;
+  color: #808080;
 }
 .form-sub-label {
   color: #828da8;
@@ -420,7 +420,7 @@ div.form-header-group {
 .rating-item label {
   border-color: #1a1f2f;
   background-color: #1f2536;
-  color: #ffffff;
+  color: #000000;
 }
 .appointmentCalendarContainer {
   background-color: #1f2536;
@@ -429,7 +429,7 @@ div.form-header-group {
 ::placeholder,
 .rating-item input:focus + label,
 .rating-item input:hover + label {
-  color: #ffffff;
+  color: #808080;
 }
 .appointmentCalendar .dayOfWeek,
 .appointmentDayPickerButton,
@@ -449,18 +449,18 @@ div.form-header-group {
 }
 .rating-item input:checked + label {
   background-color: #2e69ff;
-  border-color: #ffffff;
+  border-color: #808080;
 }
 .form-checkbox-item + label,
 .form-radio-item + label {
-  color: #2c3345;
+  color: ##000000;
 }
 .form-dropdown:hover,
 .form-textarea:hover,
 .form-textbox:hover,
 .form-checkbox:hover + label:before,
 .form-radio:hover + label:before {
-  border-color: #2e69ff;
+  border-color: #000000;
   box-shadow: 0 0 0 2px #203f91;
 }
 .form-dropdown:focus,
@@ -468,7 +468,7 @@ div.form-header-group {
 .form-textbox:focus,
 .form-checkbox:focus + label:before,
 .form-radio:focus + label:before {
-  border-color: #2e69ff;
+  border-color: #000000;
   box-shadow: 0 0 0 3px #2f4270;
 }
 .form-matrix-column-headers,
@@ -492,17 +492,17 @@ div.form-header-group {
 }
 .form-matrix-headers.form-matrix-column-headers,
 .isSelected .form-matrix-column-headers:nth-last-of-type(2) {
-  border-color: #1a1f2f;
+  border-color: #000000;
 }
 .form-radio:checked + label:after {
-  background-color: #2e69ff;
+  background-color: #000000;
 }
 .form-checkbox:checked + label:before {
-  background-color: #2e69ff;
-  border-color: #1e57e8;
+  background-color: #000000;
+  border-color: #000000;
 }
 .form-radio:checked + label:before {
-  border-color: #1e57e8;
+  border-color: #000000;
 }
 .form-header {
   color: #f8f8f8;
@@ -556,8 +556,8 @@ li[data-type="control_datetime"] .extended .allowTime-container + .form-sub-labe
   border-color: #1a1f2f;
 }
 .supernova {
-  background-color: #FFFFFF;
-  background-color: #FFFFFF;
+  background-color: #808080;
+  background-color: #808080;
 }
 .supernova body {
   background-color: transparent;
@@ -584,22 +584,22 @@ li[data-type="control_datetime"] .extended .allowTime-container + .form-sub-labe
   background-color: #222735;
 }
 .form-all {
-  color: #ffffff;
+  color: #808080;
 }
 .form-header-group .form-header {
-  color: #ffffff;
+  color: #808080;
 }
 .form-header-group .form-subHeader {
-  color: #ffffff;
+  color: #808080;
 }
 .form-sub-label {
-  color: #ffffff;
+  color: #808080;
 }
 .form-label-top,
 .form-label-left,
 .form-label-right,
 .form-html {
-  color: #ffffff;
+  color: #000000;
 }
 .form-iframe-container {
   font-size: 16px;
@@ -610,7 +610,7 @@ li[data-type="control_datetime"] .extended .allowTime-container + .form-sub-labe
   background-size: 40px;
   padding: 0;
   margin: 0 12px 12px 0;
-  background-color: #4E4E4E;
+  background-color: #000000;
   border: 1px solid #696969;
 }
 .radio-button-style-item img {
@@ -2148,25 +2148,25 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"carService","qid":"1","text":"Car S
             <span class="form-radio-item">
               <span class="dragger-item">
               </span>
-              <input type="radio" aria-describedby="label_8" class="form-radio" id="input_8_0" name="q8_vehicleType" value="Sedan" />
+              <input type="radio" aria-describedby="label_8" class="form-radio" id="input_8_0" name="q8_vehicleType" value="kymco" />
               <label id="label_input_8_0" for="input_8_0"> kymco </label>
             </span>
             <span class="form-radio-item">
               <span class="dragger-item">
               </span>
-              <input type="radio" aria-describedby="label_8" class="form-radio" id="input_8_1" name="q8_vehicleType" value="Coupe" />
+              <input type="radio" aria-describedby="label_8" class="form-radio" id="input_8_1" name="q8_vehicleType" value="sym" />
               <label id="label_input_8_1" for="input_8_1"> sym </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" aria-describedby="label_8" class="form-radio" id="input_8_2" name="q8_vehicleType" value="Sports Car" />
+              <input type="radio" aria-describedby="label_8" class="form-radio" id="input_8_2" name="q8_vehicleType" value="zontes" />
               <label id="label_input_8_2" for="input_8_2"> zontes </label>
             </span>
             <span class="form-radio-item">
               <span class="dragger-item">
               </span>
-              <input type="radio" aria-describedby="label_8" class="form-radio" id="input_8_3" name="q8_vehicleType" value="Wagon" />
+              <input type="radio" aria-describedby="label_8" class="form-radio" id="input_8_3" name="q8_vehicleType" value="benelli" />
               <label id="label_input_8_3" for="input_8_3"> benelli </label>
             </span>
             
