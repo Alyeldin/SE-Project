@@ -3,6 +3,9 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SignupController;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\ProductController;
+use App\Http\Controllers\SparepartsController;
+use App\Http\Controllers\OilchangeController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -27,15 +30,11 @@ Route::get('/login', function () {
 Route::get('/services', function () {
     return view('services');
 }); 
-Route::get('/product', function () {
-    return view('product');
-});
-Route::get('/spareparts', function () {
-    return view('spareparts');
-});
-Route::get('/oilchange', function () {
-    return view('oilchange');
-});
+
+Route::get('/product',[ProductController::class, 'index']); 
+Route::get('/spareparts',[SparepartsController::class, 'index']); 
+Route::get('/oilchange',[OilchangeController::class, 'index']); 
+
 Route::get('/acc', function () {
     return view('acc');
 });
@@ -47,12 +46,6 @@ Route::get('/admin', function () {
 });
 
 Route::resource("/Users", UserController::class);
- Route::resource('/create', UserController::class);
-// Route::resource('/edit', UserController::class);
-// Route::resource('/index', UserController::class);
-// Route::resource('/layout', UserController::class);
-// Route::resource('/show', UserController::class);
-
-
+Route::resource('/create', UserController::class);
 
 Route::get('/signup',[SignupController::class, 'signup']); 

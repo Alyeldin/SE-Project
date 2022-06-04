@@ -27,7 +27,7 @@ class ComposerAutoloaderInitce1545b21e1f11dbbbb8f273c8a16f9e
         spl_autoload_unregister(array('ComposerAutoloaderInitce1545b21e1f11dbbbb8f273c8a16f9e', 'loadClassLoader'));
 
         require __DIR__ . '/autoload_static.php';
-        \Composer\Autoload\ComposerStaticInitce1545b21e1f11dbbbb8f273c8a16f9e::getInitializer($loader)();
+        call_user_func(\Composer\Autoload\ComposerStaticInitce1545b21e1f11dbbbb8f273c8a16f9e::getInitializer($loader));
 
         $loader->register(true);
 
